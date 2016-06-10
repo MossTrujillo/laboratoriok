@@ -48,7 +48,7 @@
 							
 							
 <?php 
-$conexion = mysqli_connect("localhost","root","","laboratorio") or die("Error " . mysqli_error($conexion));
+$conexion = mysqli_connect("127.8.22.130","moises","rebel1990","laboratorio") or die("Error " . mysqli_error($conexion));
 $conexion ->query("SET NAMES 'utf8'");
 
 
